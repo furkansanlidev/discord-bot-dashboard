@@ -4,8 +4,17 @@ node_modules/
 # Builds
 dist/
 build/
+
+# Next.js outputs (hem root hem dashboard için geçerli)
 .next/
 out/
+
+# Dashboard özel
+dashboard/.next/
+dashboard/out/
+dashboard/node_modules/
+dashboard/.turbo/
+dashboard/.vercel/
 
 # Env (gizli)
 .env
@@ -31,3 +40,7 @@ Thumbs.db
 # Cache
 .cache/
 .tmp/
+
+# Local DB
+*.db
+data/
